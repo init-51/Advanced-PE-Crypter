@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Track shellcode stubs with Git LFS
+tools/srdi_builder/shellcode/*.bin filter=lfs diff=lfs merge=lfs -text
