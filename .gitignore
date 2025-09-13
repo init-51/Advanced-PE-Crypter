@@ -1,0 +1,45 @@
+﻿# build outputs / executables
+build/*
+!build/Makefile
+!build/compile.bat
+!build/compile.sh
+
+*.exe
+*.dll
+*.so
+*.dylib
+*.obj
+*.o
+*.a
+*.lib
+*.pdb
+*.ilk
+*.exp
+*.log
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env/
+
+# testing junk
+testing/*.log
+testing/__pycache__/
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# editors
+*.swp
+*.bak
+*.old
+*.orig
+*.rej
+
+# VS Code (optional)
+.vscode/
