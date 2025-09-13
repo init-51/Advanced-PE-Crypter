@@ -2,4 +2,4 @@
 * text=auto
 
 # Track shellcode stubs with Git LFS
-tools/srdi_builder/shellcode/*.bin filter=lfs diff=lfs merge=lfs -text
+x86-x64-pe-crypter-main/x86-x64-pe-crypter/srdi_builder/*.bin filter=lfs diff=lfs merge=lfs -text
